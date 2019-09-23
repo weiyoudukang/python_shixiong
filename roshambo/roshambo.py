@@ -114,6 +114,7 @@ class Referee(object):
         print("%s==>%s" % (','.join(list_output), game_result['result']))
         if game_result['surprise']:
             print(game_result['surprise'])
+            print("玩了很久吧,奖励你一个零食大礼包: https://u.jd.com/V4XefV")
 
     def calculate_game_result(self):
         """
