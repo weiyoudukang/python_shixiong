@@ -20,8 +20,7 @@ def combine_image(image, background_image):
 
     :参数:
         * image                   待合成图片
-        * backgroup_image         底图
-        * combine_type            合成方式[lower_right|middle]
+        * background_image         底图
     :返回值:
         合成图片名称
     """
